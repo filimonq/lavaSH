@@ -19,7 +19,7 @@ pid_t shell_pgid;
 //     printf("job pgid -  %d, ground = %d\n", j->pgid, j->ground);
 // }
 
-int main(int argc, char *argv[])
+int main()
 {
     init_shell();
     char line[1024];      /*  allow large command lines  */

@@ -1,3 +1,4 @@
 all: lavaSH
+
 lavaSH:
-	gcc parseline.c promptline.c shell.c -o lavaSH -Wall -Wextra
+	gcc src/parseline.c src/promptline.c src/shell.c -o lavaSH -Wall -Wextra
